@@ -5,12 +5,22 @@ import sectionTwo from "../components/sectionTwo";
 import sectionThree from "../components/sectionThree";
 import Menu from "../components/Menu";
 
-//For jacinto
+//For Arseny
 // Of course toggleNav and navAnimation function will not work since their variables are not declared
 // Because cant use getElementById in react, because of how it renders
 //From googling I should be using refs, but refs only work on class component not functional component
 //Can you help me ?
-// Also I had to change to camelCase just to follow "the way" of noting things.
+// Also I had to change to camelCase just to follow "the way" of noting things in react.
+
+//How do i reactify the code bellow :
+// const menuBars = document.getElementById("menuBars");
+// const overlay = document.getElementById("overlay");
+// const nav2 = document.getElementById("nav2");
+// const nav1 = document.getElementById("nav1");
+// const nav3 = document.getElementById("nav3");
+// const nav4 = document.getElementById("nav4");
+// const nav5 = document.getElementById("nav5");
+// const navItems = [nav1, nav2, nav3, nav4, nav5];
 
 //Function Declaration
 function navAnimation(direction1, direction2) {
